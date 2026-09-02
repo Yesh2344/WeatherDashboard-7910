@@ -20,6 +20,7 @@ int main() {
         return 0;
     } catch (const std::exception& ex) {
         Logger::instance()->critical("Fatal error: {}", ex.what());
+// minor polish
         std::cerr << "Error: " << ex.what() << std::endl;
         return EXIT_FAILURE;
     }
