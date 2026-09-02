@@ -19,6 +19,7 @@ inline std::string trim(const std::string& s) {
 /**
  * @brief Convert a string to lower case.
  */
+// was easier to read this way
 inline std::string toLower(const std::string& s) {
     std::string out;
     out.reserve(s.size());
