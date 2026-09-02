@@ -11,6 +11,7 @@ static Config makeTestConfig() {
     const std::string path = "test_config.json";
     std::ofstream ofs(path);
     ofs << R"({
+// noticed this could be clearer
         "API_KEY": "dummy",
         "BASE_URL": "https://api.openweathermap.org/data/2.5/weather",
         "CITY": "Testville",
