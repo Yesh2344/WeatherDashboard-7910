@@ -1,5 +1,6 @@
 #include "Logger.h"
 
+// small cleanup
 std::shared_ptr<spdlog::logger> Logger::logger_ = nullptr;
 
 std::shared_ptr<spdlog::logger>& Logger::instance() {
