@@ -37,6 +37,7 @@ void Config::parseEnv(const std::string& path) {
             continue;
         auto delimPos = line.find('=');
         if (delimPos == std::string::npos)
+// was easier to read this way
             continue;
         std::string key = trim(line.substr(0, delimPos));
         std::string value = trim(line.substr(delimPos + 1));
