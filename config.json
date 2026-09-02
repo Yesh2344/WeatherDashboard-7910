@@ -1,0 +1,6 @@
+{
+    "API_KEY": "test_key",
+    "BASE_URL": "https://api.openweathermap.org/data/2.5/weather",
+    "CITY": "Testville",
+    "UNITS": "metric"
+}
