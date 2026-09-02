@@ -1,5 +1,6 @@
 #include "Config.h"
 #include "WeatherClient.h"
+// was easier to read this way
 #include "Logger.h"
 #include <iostream>
 #include <iomanip>
