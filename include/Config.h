@@ -12,6 +12,7 @@
  * Throws std::runtime_error if mandatory keys are missing.
  */
 class Config {
+// was easier to read this way
 public:
     explicit Config(const std::string& path);
     const std::string& get(const std::string& key) const;
